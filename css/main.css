@@ -10,6 +10,14 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+button:focus {
+	background: transparent !important;
+}
+
+header .navbar .navbar-burger:focus {
+    box-shadow: none;
+}
+
 h1,
 h2,
 h3 {
@@ -127,7 +135,7 @@ header .navbar .navbar-brand a {
 
 }
 
-header .navbar .navbar-menu a:hover {
+header .navbar .navbar-menu a:hover, header .navbar .navbar-menu a:focus {
 	background-color: transparent;
 	color: #fff;
 	border-radius: 1.5rem;
@@ -189,4 +197,42 @@ main #details p {
 
 main #projects {
 	padding: 4rem 0;
+}
+
+main #projects .whiskey {
+	background: url('../img/whiskey.png') no-repeat;
+	height: 310px;
+	background-size: 100%;
+}
+
+main #projects .vintage {
+	background: url('../img/vintage.png') no-repeat;
+	height: 310px;
+	background-size: 100%;
+}
+
+main #projects .branding {
+	background: url('../img/branding.png') no-repeat;
+	height: 310px;
+	background-size: 100%;
+}
+
+main #projects .projects-bg {
+	background: url('../img/projects-bg.png') no-repeat;
+	padding-bottom: 2rem;
+}
+
+main #projects .projects-bg p {
+	font-size: 1.1rem;
+	margin-top: 2rem;
+}
+
+main #projects .projects-bg .button {
+	color: #fff;
+	border-color: #fff;
+	margin-top: 2rem;
+}
+
+main #projects .projects-bg span {
+	color: #fff;
 }

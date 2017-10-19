@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	color: #000;
+	letter-spacing: 0.3rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+	color: #000;
+	text-transform: none;
+}
+
+.vero {
+	color: #19bd9a;
+}
+
+nav.navbar, nav.navbar .navbar-brand .navbar-burger {
+    background-color: transparent;
+}
+
+nav.navbar .navbar-brand .navbar-burger {
+	padding-right: 8rem;
+}
+
+nav.navbar .navbar-brand a {
+	padding-left: 5rem;
+}
+
+
+.navbar-item {
+	color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+nav.navbar {
+    background-color: transparent;
+    align-items: center;
+}
+
+#NavMenu {
+	background-color: transparent;
+	padding-left: 5rem;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border: none;
+    background-color: #b12525;
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #a52222;
+}
+
+.undertitle span {
+    display: block;
+    width: 100%;
+    height: .1rem;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.undertitle span:not(:last-child) {
+    margin-bottom: .9rem;
+}
+
+.undertitle span:nth-child(2) {
+    width: 80%;
+}
+
+.undertitle span:last-child {
+    width: 60%;
+}
+
+
+
+
+/* HEADER */
+
+
+
+
+header {
+	padding: 2.6rem 0;
+	background: url('../img/header.png') no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+header .navbar .navbar-brand a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+header .navbar .navbar-menu a:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+header .navbar .navbar-menu a:nth-child(1) {
+	border-radius: 1.5rem;
+	border: 1px solid #fff;
+	padding: 0 1.5rem;
+}
+
+#headerwrap {
+	padding: 8rem 0;
+}
+
+#headerwrap a {
+	border-radius: 50%;
+	margin: 11rem 0;
+}
+
+
+
+
+/* MAIN */
+
+
+
+main {
+	padding: 5rem 0;
+}
+
+main p {
+	color: #bdc4cb;
+	margin-top: 3rem;
+}
+
+main button.button,
+main button.button:hover {
+	background-color: transparent;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 1rem;
+	padding: 0 1.6rem;
+	margin-top: 2rem;
+}
+
+main #phone img {
+	margin-top: -1.5rem;
+}
+
+main #details {
+	background-color: #f3f3f3;
+	padding: 4rem 0;
+}
+
+main #details img {
+	padding-right: 1rem;
+	padding-top: 2rem;
+}
+main #details p {
+	margin-top: 2rem;
+}
+
+main #projects {
+	padding: 4rem 0;
+}

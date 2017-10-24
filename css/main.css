@@ -165,7 +165,7 @@ main {
 
 main p {
 	color: #bdc4cb;
-	margin-top: 3rem;
+	margin-top: 2rem;
 }
 
 main button.button,
@@ -191,12 +191,9 @@ main #details img {
 	padding-right: 1rem;
 	padding-top: 2rem;
 }
-main #details p {
-	margin-top: 2rem;
-}
 
 main #projects {
-	padding: 4rem 0;
+	padding-top: 4rem;
 }
 
 main #projects .whiskey {
@@ -224,7 +221,6 @@ main #projects .projects-bg {
 
 main #projects .projects-bg p {
 	font-size: 1.1rem;
-	margin-top: 2rem;
 }
 
 main #projects .projects-bg .button {
@@ -235,4 +231,48 @@ main #projects .projects-bg .button {
 
 main #projects .projects-bg span {
 	color: #fff;
+}
+
+main #services {
+	background-color: #f3f3f3;
+	padding-top: 4rem;
+	padding-bottom: 6rem;
+}
+
+main #services .perc {
+	align-items: center;
+}
+
+main #services .perc p {
+	margin: 0;
+	font-size: 1.05rem;
+}
+
+main #impressed {
+	background: url('../img/impressed-bg.png') no-repeat;
+	padding-top: 4rem;
+}
+
+main #impressed p {
+	color: #656565;
+	font-weight: 400;
+}
+
+main #impressed h3 {
+	color: #b2b3b3;
+}
+
+main #impressed span {
+	text-transform: uppercase;
+}
+
+main #impressed span:nth-of-type(1) {
+	text-transform: uppercase;
+	font-size: 0.99rem;
+	color: #b2b3b3;
+	font-weight: 600;
+}
+
+main #impressed span:nth-of-type(2) > span {
+	color: #19bd9a;
 }

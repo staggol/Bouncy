@@ -14,6 +14,10 @@ button:focus {
 	background: transparent !important;
 }
 
+.knopka {
+	padding: 0 0.65rem;
+} 
+
 header .navbar .navbar-burger:focus {
     box-shadow: none;
 }

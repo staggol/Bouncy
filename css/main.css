@@ -219,7 +219,7 @@ main #projects .branding {
 }
 
 main #projects .projects-bg {
-	background: url('../img/projects-bg.png') no-repeat;
+	background: url('../img/projects-bg.png');
 	padding-bottom: 2rem;
 }
 

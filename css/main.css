@@ -255,6 +255,7 @@ main #services .perc p {
 main #impressed {
 	background: url('../img/impressed-bg.png') no-repeat;
 	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 
 main #impressed p {
@@ -279,4 +280,37 @@ main #impressed span:nth-of-type(1) {
 
 main #impressed span:nth-of-type(2) > span {
 	color: #19bd9a;
+}
+
+main #impressed .screen {
+	margin-top: -6rem;
+}
+
+main #portfolio {
+	padding-top: 4rem;
+}
+
+main #portfolio .images {
+	word-spacing: 2rem;
+}
+
+main #portfolio .images span {
+	display: inline-block;
+	word-spacing: 0;
+	color: #000;
+	cursor: pointer;
+}
+
+main #portfolio .images span:after {
+	display: block;
+	content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #19bd9a;
+    margin-top: 0.5rem !important;
+}
+
+main #portfolio .images span:hover:after, main #portfolio .images span:focus:after {
+	width: 2rem;
+    margin: auto;
 }

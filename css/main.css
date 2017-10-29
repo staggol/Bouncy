@@ -123,7 +123,7 @@ nav.navbar {
 
 header {
 	padding: 2.6rem 0;
-	background: url('../img/header.png') no-repeat;
+	background: url('../img/background/header.png') no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -201,25 +201,25 @@ main #projects {
 }
 
 main #projects .whiskey {
-	background: url('../img/whiskey.png') no-repeat;
+	background: url('../img/background/whiskey.png') no-repeat;
 	height: 310px;
 	background-size: 100%;
 }
 
 main #projects .vintage {
-	background: url('../img/vintage.png') no-repeat;
+	background: url('../img/background/vintage.png') no-repeat;
 	height: 310px;
 	background-size: 100%;
 }
 
 main #projects .branding {
-	background: url('../img/branding.png') no-repeat;
+	background: url('../img/background/branding.png') no-repeat;
 	height: 310px;
 	background-size: 100%;
 }
 
 main #projects .projects-bg {
-	background: url('../img/projects-bg.png');
+	background: url('../img/background/projects-bg.png');
 	padding-bottom: 2rem;
 }
 
@@ -253,7 +253,7 @@ main #services .perc p {
 }
 
 main #impressed {
-	background: url('../img/impressed-bg.png') no-repeat;
+	background: url('../img/background/impressed-bg.png') no-repeat;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }

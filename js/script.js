@@ -1,3 +1,19 @@
+// Сетка из картинок \ MASONRY 
+$(document).ready(function () {
+    var sizer = '.sizer4';
+
+    var container = $('#gallery');
+
+    container.imagesLoaded(function() {
+        container.masonry({
+          itemSelector: '.item-masonry',
+          columnWidth: sizer,
+          percentPosition: true
+        });
+    });
+});
+
+
 //BURGER MENU
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -36,15 +52,55 @@ function slowScroll(id) {
 	return false;
 }
 
-// Сетка из картинок \ MASONRY 
-$(document).ready(function () {
-    var $container = $(".masonry-container");
-      $container.imagesLoaded(function () {
-        $container.masonry({
-        columnWidth: ".item",
-        itemSelector: ".item"
-      });
-      $(".item").imagefill();
-    });
+//Кнопка для перехода наверх
 
+$('body').append('<button class="btn-up">');
+
+
+$('.btn-up').click(function() {
+  $('body').animate({'scrollTop': 0}, 1000);
+  $('html').animate({'scrollTop': 0}, 1000);
 });
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 500) {
+    $('.btn-up').addClass('active');
+  }else {
+    $('.btn-up').removeClass('active');
+  }
+});
+
+
+// СЛАЙДЕР 
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dots");
+
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i=0; i<slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i=0; i<dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+}

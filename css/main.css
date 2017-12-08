@@ -12,6 +12,7 @@ body {
 
 button:focus {
 	background: transparent !important;
+	-webkit-box-shadow: none !important;
 }
 
 .btn-up {
@@ -295,6 +296,11 @@ main #phone img {
 	margin-top: -1.5rem;
 }
 
+main #phone button:focus {
+	border-color: #000;
+	color: #000;
+}
+
 /* DETAILS */
 
 main #details {
@@ -555,6 +561,14 @@ main #form input[type="text"]::-webkit-input-placeholder {
 
 main #form input[type="text"]::-moz-placeholder {
 	color: #c4c7c8;
+}
+
+main #form input[type="text"]:active,
+main #form input[type="text"]:hover, 
+main #form input[type="text"]:focus {
+    outline: none;
+    border-color: #fff;
+    -webkit-box-shadow: none;
 }
 
 main #form .button {

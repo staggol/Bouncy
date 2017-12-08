@@ -2,6 +2,7 @@
 
 body {
     background-color: #fff;
+    background: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     color: #ffffff;
@@ -451,10 +452,10 @@ main #portfolio #gallery {
 
 main #portfolio .projects-bg {
 	background: url('../img/background/images-bg.png') no-repeat;
-	background-size: cover;
 	margin-top: 3rem;
 	margin-left: 1rem;
 	height: 11rem;
+	transform: scale(1.04);
 }
 
 main #portfolio .projects-bg p {
@@ -475,7 +476,7 @@ main #portfolio .projects-bg span {
 /* TEAM */
 
 main #team {
-	padding: 5rem 0;
+	padding-top: 5rem;
 }
 
 main #team h4 {
@@ -528,12 +529,50 @@ main #team #progress-bar .progress-3 {
 	min-width: 60%;
 }
 
+main #team .projects-bg {
+	background: url('../img/background/already.png') no-repeat;
+	padding: 2rem 0;
+}
+
+main #team .projects-bg button {
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+
+/* TESTIMONIALS */
+
+main #testimonials {
+	background: #f3f3f3;
+	padding: 5rem 0;
+}
+
+main #testimonials .columns:nth-of-type(2) {
+	background: #fff;
+	padding: 2rem 5rem;
+}
+
+main #testimonials p {
+	margin-top: -0.1rem;
+}
+
+main #testimonials h5 {
+	text-transform: uppercase;
+	color: #19bd9a;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+main #testimonials h6 {
+	text-transform: uppercase;
+	color: #464646;
+	font-size: 14px;
+}
 
 /* FORM */
 
 main #form {
-	background: url('../img/background/background-form.png') no-repeat 20% 70%;
-	background-size: cover;
+	background: url('../img/background/background-form.png') no-repeat 30% 70%;
 	padding: 5rem 0;
 }
 

@@ -219,7 +219,9 @@ nav.navbar {
     width: 60%;
 }
 
-
+img {
+	pointer-events: none;
+}
 
 
 /* HEADER */
@@ -282,6 +284,9 @@ main button.button:hover {
 	margin-top: 2rem;
 }
 
+
+/* PHONE */
+
 main #phone {
 	padding: 5rem 0;
 }
@@ -289,6 +294,8 @@ main #phone {
 main #phone img {
 	margin-top: -1.5rem;
 }
+
+/* DETAILS */
 
 main #details {
 	background-color: #f3f3f3;
@@ -299,6 +306,9 @@ main #details img {
 	padding-right: 1rem;
 	padding-top: 2rem;
 }
+
+
+/* PROJECTS */
 
 main #projects {
 	padding-top: 4rem;
@@ -341,6 +351,9 @@ main #projects .projects-bg span {
 	color: #fff;
 }
 
+
+/* SERVICES */
+
 main #services {
 	background-color: #f3f3f3;
 	padding-top: 4rem;
@@ -355,6 +368,9 @@ main #services .perc p {
 	margin: 0;
 	font-size: 1.05rem;
 }
+
+
+/* IMPRESSED */
 
 main #impressed {
 	background: url('../img/background/impressed-bg.png') no-repeat;
@@ -389,6 +405,9 @@ main #impressed span:nth-of-type(2) > span {
 main #impressed .screen {
 	margin-top: -6rem;
 }
+
+
+/* PORTFOLIO */
 
 main #portfolio {
 	background: #f3f3f3;
@@ -426,6 +445,7 @@ main #portfolio #gallery {
 
 main #portfolio .projects-bg {
 	background: url('../img/background/images-bg.png') no-repeat;
+	background-size: cover;
 	margin-top: 3rem;
 	margin-left: 1rem;
 	height: 11rem;
@@ -444,6 +464,9 @@ main #portfolio .projects-bg .button {
 main #portfolio .projects-bg span {
 	color: #fff;
 }
+
+
+/* TEAM */
 
 main #team {
 	padding: 5rem 0;
@@ -499,8 +522,12 @@ main #team #progress-bar .progress-3 {
 	min-width: 60%;
 }
 
+
+/* FORM */
+
 main #form {
 	background: url('../img/background/background-form.png') no-repeat 20% 70%;
+	background-size: cover;
 	padding: 5rem 0;
 }
 

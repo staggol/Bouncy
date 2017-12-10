@@ -16,6 +16,10 @@ button:focus {
 	-webkit-box-shadow: none !important;
 }
 
+.wrapperr {
+	overflow-x: hidden !important;
+}
+
 .btn-up {
 	position: fixed;
 	bottom: -50px;

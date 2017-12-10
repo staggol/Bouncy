@@ -51,7 +51,7 @@ button:focus {
 	bottom: 50px;
 }
 
-.knopka {
+.btn-phone {
 	padding: 0 0.65rem;
 } 
 
@@ -566,6 +566,7 @@ main #testimonials h5 {
 main #testimonials h6 {
 	text-transform: uppercase;
 	color: #464646;
+	font-weight: 600;
 	font-size: 14px;
 }
 

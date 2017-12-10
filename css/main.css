@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     color: #ffffff;
+    overflow-x: hidden !important;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -16,9 +17,7 @@ button:focus {
 	-webkit-box-shadow: none !important;
 }
 
-.wrapperr {
-	overflow-x: hidden !important;
-}
+
 
 .btn-up {
 	position: fixed;

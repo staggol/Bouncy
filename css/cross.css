@@ -1,5 +1,9 @@
 @media only screen and (max-width: 768px) { 
 
+	html,
+	body {
+		width: 100vw; 
+	}
 
 	.btn-up {
 		right: 20px;
